@@ -62,3 +62,13 @@
 }
 
 /* ------------ Devin's CSS ----------- */
+
+/* ------------ Moe's CSS ----------- */
+.portrait{
+  text-align: right;
+    display: block;
+    margin-left: auto;
+    margin-right: 350px;
+    margin-top: 150px;
+  }
+  
