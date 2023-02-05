@@ -3,8 +3,72 @@
   padding: 0;
 }
 
-/* ------------ Devin's CSS ----------- */
+/* --- Dan's CSS --- */
+.sect1-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  margin-top: 4em;
+  margin-left: 4em;
+  padding-right: 2em;
+  width: 40%;
+  min-width: 26em;
+  height: 37em;
+}
 
+.sect1-container h1 {
+  margin-left: 1em;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.input-container {
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  height: 4em;
+  border-radius: 30px;
+  margin-top: 4em;
+}
+
+.input-container input {
+  border: none;
+  border-radius: 30px;
+  width: 98%;
+  height: 3.5em;
+  padding-left: 1em;
+}
+
+.input-container input:focus {
+  outline: none;
+}
+
+.n-icon, .e-icon, .pw-icon {
+  margin-left: 2em;
+}
+
+.n-icon {
+  height: 20px;
+  padding-left: 6px;
+}
+
+.input-button {
+  text-align: center;
+  margin-top: 4em;
+}
+
+.input-button button {
+  height: 2.5em;
+  width: 9em;
+  border-radius: 30px;
+  background-color: rgb(17, 93, 192);
+  border: none;
+  color: white;
+  font-size: x-large;
+  font-weight: bold;
+}
+/* --- Dan's CSS --- */
+/* ------------ Devin's CSS ----------- */
 .dcontainer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -60,9 +124,7 @@
     border-radius: 50%;
     font-size: 2em;
 }
-
 /* ------------ Devin's CSS ----------- */
-
 /* ------------ Moe's CSS ----------- */
 .portrait{
   text-align: right;
@@ -70,5 +132,5 @@
     margin-left: auto;
     margin-right: 350px;
     margin-top: 150px;
-  }
-  
+}
+
